@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: "Open Sans", sans-serif; */
+}
+
+textarea{
+    resize:none;
+    outline: none;
+}
+
+span{
+    display: block;
+}
+
+input{
+    width: 300px;
+    outline: none;
+    height: 30px;
+    padding: 20px 100px 20px 5px;
+}
+
+form{
+    width: 100%;
+    height: 500px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: coral;
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding: 100px; 
+}
+
+input::placeholder{
+    color: coral;
+}
+
+button{
+    background-color: white;
+    color: coral;
+    border: 2px solid coral;
+    padding: 15px 35px;
+    font-size: 14px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: coral;
+    color: white;
+    border: 2px solid white;
+}
